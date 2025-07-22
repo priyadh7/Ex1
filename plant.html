@@ -4,109 +4,167 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Plant-Based Diet Benefits</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body {
-      background-color: #f0fdf4;
-      color: #1e3a1e;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f7faff;
+      font-family: 'Poppins', sans-serif;
+      color: #1e293b;
       line-height: 1.6;
     }
+
     header {
-      background-color: #047857;
+      background: linear-gradient(90deg, #1e3a8a, #0ea5e9);
       color: white;
-      padding: 20px 40px;
       text-align: center;
+      padding: 40px 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
     nav {
-      background-color: #065f46;
+      background-color: #0f172a;
+      padding: 12px 0;
       text-align: center;
-      padding: 10px 0;
     }
+
     nav a {
       color: #ffffff;
-      margin: 0 15px;
+      margin: 0 18px;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
+      font-size: 16px;
+      transition: color 0.3s ease;
     }
+
     nav a:hover {
-      text-decoration: underline;
+      color: #0ea5e9;
     }
+
     main {
-      padding: 30px 40px;
+      padding: 40px 30px;
+      max-width: 1000px;
+      margin: auto;
     }
+
     section {
-      margin-bottom: 40px;
+      margin-bottom: 60px;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
     }
+
+    h2 {
+      color: #1e3a8a;
+      margin-bottom: 20px;
+      font-size: 26px;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 6px;
+    }
+
+    h3 {
+      color: #0ea5e9;
+      margin-top: 20px;
+      font-size: 20px;
+    }
+
+    ul, ol {
+      margin-left: 25px;
+    }
+
     table {
-      border-collapse: collapse;
       width: 100%;
-      margin-top: 10px;
+      border-collapse: collapse;
+      margin-top: 20px;
     }
+
     th, td {
-      border: 1px solid #065f46;
+      border: 1px solid #cbd5e1;
       padding: 12px;
       text-align: left;
     }
+
     th {
-      background-color: #bbf7d0;
+      background-color: #e0f2fe;
     }
-    ul, ol {
-      margin-left: 20px;
-    }
+
     img {
-      margin-top: 10px;
+      width: 300px;
       border-radius: 10px;
+      margin-top: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
+
     footer {
-      background-color: #047857;
+      background-color: #1e3a8a;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding: 30px 20px;
+      margin-top: 40px;
     }
-    a {
-      color: #065f46;
-    }
+
     .clickable-img {
-      display: inline-block;
-      margin-top: 10px;
+      display: block;
+      margin-top: 20px;
+    }
+
+    a {
+      color: #1e3a8a;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #0ea5e9;
+    }
+
+    dt {
+      font-weight: 600;
+      color: #0f172a;
+    }
+
+    dd {
+      margin-bottom: 12px;
     }
   </style>
 </head>
-<body>
 
-  <!-- HEADER -->
+<body>
   <header>
     <h1>Plant-Based Diet Benefits</h1>
     <p>Your journey toward a healthier life and a greener planet</p>
   </header>
 
-  <!-- NAVIGATION -->
   <nav>
     <a href="#intro">Home</a>
     <a href="#benefits">Benefits</a>
-    <a href="#links">Links</a>
-    <a href="#terms">Definitions</a>
+    <a href="#links">Resources</a>
+    <a href="#terms">Key Terms</a>
     <a href="#table">Comparison</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <!-- MAIN CONTENT -->
   <main>
-
-    <!-- Introduction Section -->
     <section id="intro">
-      <h2>Introduction</h2>
+      <h2>Welcome to the World of Plant-Based Eating</h2>
       <p>A plant-based diet emphasizes whole, natural foods like vegetables, fruits, legumes, seeds, and grains while reducing or avoiding animal products. It's not only beneficial for your health but also for the planet.</p>
     </section>
 
-    <!-- Benefits Section -->
     <section id="benefits">
-      <h2>Types of Benefits</h2>
+      <h2>Why Choose a Plant-Based Diet?</h2>
 
-      <!-- Unordered Nested List -->
-      <h3>Unordered List</h3>
+      <h3>Health & Environmental Perks</h3>
       <ul>
         <li>Health Benefits
           <ul>
@@ -122,8 +180,7 @@
         </li>
       </ul>
 
-      <!-- Ordered Nested List -->
-      <h3>Ordered Steps to Start</h3>
+      <h3>Simple Steps to Get Started</h3>
       <ol>
         <li>Begin with One Plant Meal Daily
           <ol>
@@ -140,9 +197,8 @@
       </ol>
     </section>
 
-    <!-- Useful Links -->
     <section id="links">
-      <h2>Useful Links</h2>
+      <h2>Helpful Resources</h2>
       <p>
         • <a href="https://www.healthline.com/nutrition/plant-based-diet-guide" target="_blank">Healthline Plant-Based Guide</a><br>
         • <a href="mailto:info@plantdiet.org">Email Us</a><br>
@@ -151,15 +207,13 @@
         • <a href="#intro">Back to Top</a>
       </p>
 
-      <!-- Clickable Image -->
       <a class="clickable-img" href="https://www.eatright.org/" target="_blank">
-        <img src="Plantt.jpg" alt="Plant-Based Eating" width="300">
+        <img src="Plantt.jpg" alt="Plant-Based Eating">
       </a>
     </section>
 
-    <!-- Definition List -->
     <section id="terms">
-      <h2>Key Terms</h2>
+      <h2>Key Terms to Know</h2>
       <dl>
         <dt>Vegan</dt>
         <dd>Someone who avoids all animal-derived products, including dairy and eggs.</dd>
@@ -170,9 +224,8 @@
       </dl>
     </section>
 
-    <!-- Table Section -->
     <section id="table">
-      <h2>Plant vs Animal-Based Diet</h2>
+      <h2>Plant vs Animal-Based Diet Comparison</h2>
       <table>
         <tr>
           <th>Aspect</th>
@@ -202,21 +255,16 @@
       </table>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
-      <h2>Contact Us</h2>
-      <p>We'd love to hear from you!</p>
+      <h2>Get in Touch</h2>
       <p>Email: <a href="mailto:info@plantdiet.org">info@plantdiet.org</a></p>
       <p>Phone: <a href="tel:+919876543210">+91 98765 43210</a></p>
     </section>
-
   </main>
 
-  <!-- FOOTER -->
   <footer>
     <p>&copy; 2025 Plant-Based Wellness | Designed with ❤️ for health and sustainability</p>
-    <p><small>This page was built to demonstrate HTML5 features and elements.</small></p>
+    <p><small>This page was built to demonstrate HTML5 elements with a premium touch.</small></p>
   </footer>
-
 </body>
 </html>
